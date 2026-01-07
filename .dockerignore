@@ -1,0 +1,35 @@
+# Git
+.git
+.gitignore
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Python virtual environment
+.venv
+venv
+env
+*.pyc
+__pycache__
+
+# IDE-specific files
+.idea
+.vscode
+
+# OS-specific files
+*.DS_Store
+Thumbs.db
+
+# Local data and session files (managed by volumes at runtime)
+data/
+*.session
+
+# Environment files (loaded via env_file in docker-compose)
+.env
+.env.*
+
+# Logs (if you generate local log files)
+*.log
+logs/
